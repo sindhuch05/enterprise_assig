@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0px;
+}
+.header-logo-link {
+    background-color: #169a5a;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.header-logo-img {
+    height: 40px;
+    border: 1px solid #fff;
+}
+.search_location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.start-header,
+.header_page2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 40px;
+    color: #181918;
+}
+.location-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: .5em;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.location-searchBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.searchBox {
+    width: 50rem;
+    height: 4rem;
+    border: 2px solid #c3c3c3;
+    border-bottom: 4px solid #169a5a;
+    font-size: 1rem;
+}
+.searchBox:focus,
+.age-select:focus,
+.pick-date:focus,
+.return-date:focus {
+    color: #181918;
+    border-top: 2px solid #169a5a;
+    border-left: 2px solid #169a5a;
+    border-right: 2px solid #169a5a;
+}
+.search-dates {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.pick-up-heading,
+.age-heading,
+.return-heading {
+    margin-bottom: 20px;
+}
+.age-select,
+.pick-date,
+.return-date {
+    height: 56px;
+    width: 220px;
+    font-size: 17px;
+    border: 2px solid #c3c3c3;
+    border-bottom: 4px solid #169a5a;
+}
+.continue-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submit-button {
+    width: 200px;
+    height: 56px;
+    margin-top: 30px;
+    background: #169a5a;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #169a5a;
+}
+.submit-button:focus {
+    background: #006639;
+}
+.sec_page,
+.cars_page {
+    display: none;
+}
+.cars_page {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.types {
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+}

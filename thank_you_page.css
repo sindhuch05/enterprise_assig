@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	outline: 0;
+	margin: 0px;
+	font-family: sans-serif;
+
+}
+
+.finalPage{
+	display: none;
+}
+
+.header-logo {
+	background-color: #169a5a;
+	display: flex;
+	height: 100px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.enterprise-img {
+	height: 35px;
+	width: 169px;
+	border: 1px solid #fff;
+}
+
+.thank_you_msg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.booking{
+  display: flex;
+  height: 100vh;
+  margin-top: 200px;
+  font-size: 30px;
+}

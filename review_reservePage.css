@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+	outline: 0;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+body{padding-left: 0; padding-right: 0;}
+.header-logo {
+	background-color: #169a5a;
+	display: flex;
+	height: 100px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.enterprise-img {
+	height: 35px;
+	width: 169px;
+	border: 1px solid #fff;
+}
+
+.review_header{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	/*margin-top: 10px;*/
+	color:#181918;
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+
+.review_reserve_page{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+border: 20px solid white;
+
+}
+.contact_Details{
+	border: 1px solid gray;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+flex: 2;
+min-width: 300px;
+
+
+}
+
+.contact_header{
+	border-bottom: 3px solid #181918;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.first_name,.last_name,.phone_num,.email_add{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	/*margin-bottom: 10px;*/
+}
+input{
+	padding: 0.5em 0.65rem;
+	border:1px solid #c3c3c3;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+}
+.subscribe{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+.subscribe1{
+	width: 10%;
+	align-self: center;
+	padding:10px;
+	width: 22px;
+height: 22px;
+margin-top: 10px;
+}
+.subscribe2{
+	width:90%;
+align-self: center;
+
+}
+
+.submit_button{
+	width: 100%;
+}
+
+.price_details{
+	border: 1px solid gray;
+  height: 680px;
+	background: #f3f3f3;
+	padding: 20px;
+	display: flex;
+justify-content: center;
+	flex: 1;
+
+}
+.complete_booking_header{
+	display: flex;
+	justify-content: flex-start;
+
+	/*width: 100%;*/
+
+	border: 20px solid white;
+}
+.complete_booking{
+display: flex;
+flex-wrap: wrap;
+border: 1px solid gray;
+/*width: 650px;*/
+padding: 30px;
+flex-direction: column;
+/*width: 50%;*/
+align-content: center;
+justify-content: center;
+/*margin-left: 60px;*/
+margin-bottom: 20px;
+margin-top: 20px;
+
+/*margin: 20px;*/
+/*margin-left: 75px;*/
+}
+.total_amount{
+	font-size: 22px;
+
+	font-weight: bold;
+}
+.booking_header{
+	border-bottom: 3px solid #181918;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.submit_button{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 60px;
+	width: 100%;
+	justify-content: flex-start;
+
+}
+.reserve_button{
+	background: #169a5a;
+	padding: 12px;
+width: 200px;
+color: white;
+    font-size: 16px;
+		display: flex;
+		justify-content: center;
+		border: 0px;
+
+}
+.price{
+	display: flex;
+	font-size: 20px;
+	justify-content: center;
+	margin-top: 20px;
+}
+.mileage,.car_and_price,.total_esti,.tax_total{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Select Vehicle Class</title>
+      <link rel="stylesheet" href="cars_page.css" type="text/css">
+      <link rel="stylesheet" href="review_reservePage.css" type="text/css">
+   </head>
+   <body>
+      <div class="sec_page">
+         <div class="header-logo">
+            <a href="file:///Users/Sindhu/Documents/UI_Lab/enterprise_assig/carSearchPage1.html">
+            <img src="logo-enterprise.png" class="enterprise-img" alt="">
+            </a>
+         </div>
+      </div>
+      <div class="cars_page_header">
+         <div class="header_page2">
+            <h3>CHOOSE A VEHICLE CLASS</h3>
+         </div>
+         <br>
+         <br>
+         <div class="vehicle_type">
+            <b>VEHICLE TYPE </b>
+            <select class="vehicle_types" required>
+               <option value="cars" selected>All Cars</option>
+               <option value="sedan">Sedans</option>
+               <option value="SUVs">SUVs</option>
+               <option value="Trucks">Trucks</option>
+               <option value="Vans">Vans</option>
+            </select>
+         </div>
+      </div>
+      <br>
+      <div class="list_cars" id="list2">
+      </div>
+
+<div class="page3">
+  <div class="review_header">
+    <h3>REVIEW &#38; RESERVE</h3>
+  </div>
+      <form action="#">
+        <div class="review_reserve_page">
+      <div class="contact_Details">
+
+          <div class="contact_header"><h3>Contact Details</h3></div><br><br>
+      <div class="first_name">First Name*<input type="text" class="fname" required></div>
+      <div class="last_name">Last Name*<input type="text" class="lname" required></div>
+      <div class="phone_num">Phone Number*<input type="tel" class="phoneNumber" required></div>
+      <div class="email_add">Email Address*<input type="email" class="emailAddress" placeholder="name@domain.com" required></div><br>
+      <div class="subscribe"><input type="checkbox" class="subscribe1" name="subscribe" value="subscribe">
+         <label for="subscribe1" class="subscribe2">Sign up for Enterprise Email Specials</label>
+      </div>
+      <br><br>
+      <div><p>By selecting this checkbox you are confirming that you would like to receive email promotions
+          and offers from Enterprise. You can unsubscribe at any time by using the links provided in
+           the emails.View our Privacy Policy</p></div>
+
+
+      </div>
+
+      <div class="price_details">
+
+      </div>
+      </div>
+<div class="complete_booking_header">
+  <div class="complete_booking">
+    <div class="booking_header"><h3>Complete Your Booking</h3></div>
+    <div>You will be charged when you pick up your rental.</div><br>
+      <div class="total_amount"></div>
+
+  </div>
+</div>
+
+      <div class="submit_button"><input type="button" onclick="personalDataReview()" class="reserve_button" value="RESERVE NOW"></div>
+
+      </form>
+</div>
+
+<!-- <script type="text/javascript" src="carSearchPage1.js">
+
+</script> -->
+      <script type="text/javascript" src="cars_details.js"></script>
+    <script type="text/javascript" src="review_reservePage.js">
+
+    </script>
+    <script type="text/javascript" src="ThankYouPage.js">
+
+    </script>
+   </body>
+</html>
